@@ -1,0 +1,9 @@
+.score{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 1rem;
+    padding: 10px;
+    color: white;
+}

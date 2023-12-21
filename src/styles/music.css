@@ -1,0 +1,11 @@
+.music-btn{
+    margin-bottom: 2.5rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.music-btn :first-child{
+    width: 32px;
+    height: 32px;
+}

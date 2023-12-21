@@ -1,0 +1,47 @@
+.card{
+    margin: max(1rem, 20px);
+    align-self: center;
+    justify-self: center;
+    width: 150px;
+    height: 205px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: dashed white 2px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: transform 0.2s ease-in;
+}
+
+.card:hover,
+.card:focus{
+    transform: scale(1.05);
+    box-shadow: -0px 0px 42px 0px rgba(138,138,138,0.62);
+    -webkit-box-shadow: -0px 0px 42px 0px rgba(138,138,138,0.62);
+    -moz-box-shadow: -0px 0px 42px 0px rgba(138,138,138,0.62);
+}
+
+.card img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+
+.pokemon img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+
+@media screen and (max-width:768px){
+    .card{
+        margin: max(1rem, 20px);
+        align-self: center;
+        justify-self: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
