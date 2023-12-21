@@ -1,5 +1,5 @@
 
-@font-face { font-family: Bit; src: url('Minecraft.ttf'); } 
+@font-face { font-family: Bit; src: url('../Minecraft.ttf'); } 
 *{
   margin: 0;
   padding: 0;
