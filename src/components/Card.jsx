@@ -20,7 +20,7 @@ const Card = ({index, url, onClick}) => {
     if (isLoading){
         return (
         <div className='card'>
-            <img src="/pokemonCard.jpeg" alt="pokemon card back side" />
+            <img src="pokemonCard.jpeg" alt="pokemon card back side" />
         </div>)
     }else{
         return(
